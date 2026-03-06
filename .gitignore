@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment and secrets
+.env
+
+# dbt
+transform/profiles.yml
+transform/target/
+transform/dbt_modules/
+transform/logs/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Data files — never commit raw data
+*.csv
+*.parquet
+*.json

@@ -1,0 +1,17 @@
+# Ingestion
+kaggle==1.7.4.2
+duckdb==1.2.1
+
+# dbt
+dbt-core==1.9.3
+dbt-duckdb==1.9.2
+
+# Linting and formatting
+sqlfluff==3.5.0
+sqlfluff-templater-dbt==3.5.0
+
+# Environment
+python-dotenv==1.0.1
+
+# Code quality
+pre-commit==4.2.0
