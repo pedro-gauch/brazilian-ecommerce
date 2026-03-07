@@ -1,6 +1,7 @@
 # Ingestion
 kaggle==1.7.4.2
-duckdb==1.2.1
+kagglehub==1.0.0
+duckdb==1.4.4
 
 # dbt
 dbt-core==1.9.3
@@ -9,6 +10,9 @@ dbt-duckdb==1.9.2
 # Linting and formatting
 sqlfluff==3.5.0
 sqlfluff-templater-dbt==3.5.0
+
+# Data manipulation
+pandas==2.2.3
 
 # Environment
 python-dotenv==1.0.1
